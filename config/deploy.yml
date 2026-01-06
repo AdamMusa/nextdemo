@@ -1,0 +1,16 @@
+# Name of your application. Used to uniquely configure containers.
+service: nenba
+image: adammusa/nenba
+servers:
+  web:
+    - 5.161.252.234
+proxy:
+  ssl: false
+  app_port: 3000
+  healthcheck:
+    path: /
+registry:
+  server: localhost:5555
+builder:
+  arch: amd64
+
