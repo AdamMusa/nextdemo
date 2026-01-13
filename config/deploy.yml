@@ -11,7 +11,7 @@ proxy:
   healthcheck:
     path: /
 registry:
-  server: localhost:7777
+  server: localhost:5000
 builder:
   arch: amd64
 
