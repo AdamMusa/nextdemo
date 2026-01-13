@@ -13,7 +13,8 @@ proxy:
 registry:
   server: 0.0.0.0:5555
   username: admin
-  password: admin
+  password:
+    - password
 builder:
   arch: amd64
 
