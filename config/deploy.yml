@@ -3,7 +3,7 @@ service: nenba
 image: adammusa/nenba
 servers:
   web:
-    - 5.161.252.234
+    - 77.42.83.12
 proxy:
   ssl: true
   host: nenba.alkimist.dev
